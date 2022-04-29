@@ -244,7 +244,7 @@ Namespace WSSNeoTel
         '''<remarks/>
         Public Sub New()
             MyBase.New
-            Me.Url = Global.APP_828.My.MySettings.Default.APP_WSSNeoTel_WebService
+            Me.Url = Global.APP_839.My.MySettings.Default.APP_WSSNeoTel_WebService
             If (Me.IsLocalFileSystemWebService(Me.Url) = true) Then
                 Me.UseDefaultCredentials = true
                 Me.useDefaultCredentialsSetExplicitly = false
